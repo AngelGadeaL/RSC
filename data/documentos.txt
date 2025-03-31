@@ -1,0 +1,11 @@
+YAPE	FWL-YAP-001	Firewall de toda la intraestructura 
+YAPE	FWL-YAP-002	Firewall  Acceso a los recursos del FrontEnd
+YAPE	SRV-YAP-003     Servidor de Transacciones de Yape para Personas
+YAPE	SRV-YAP-004	servidor DE bASE DE datos de Transacciones 
+YAPE	BDD-YAP-005	Base de Datos Transacciones Diarias
+YAPE    BDD-YAP-006	Base de Datos de Accesos Seguridad de las Peronas
+YAPE	BDD-YAP-007	Base de Datos de Resgarudo y mirroring de transacciones diarias 
+MBBK	FWL-MBK-001	Firewall de Multibanking del Area de Seguridad Global
+MBBK    FWL-MBK-002	Firewall de Accceso a los Servidores de la Red Interna
+MBBK    SRV-MBK-003	Servidor de Transacciones Diarias de Multibanking 
+MBBK    SRV-MBK-004     servidor de FrontEnd de Multibanking HTML C
