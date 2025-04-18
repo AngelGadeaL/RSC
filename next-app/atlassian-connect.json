@@ -1,0 +1,29 @@
+{
+    "key": "rsc-next-dashboard",
+    "name": "RSC Azure Dashboard",
+    "baseUrl": "{{HOST}}",
+    "vendor": { "name": "Angel Gadea", "url": "https://angelgadea.com" },
+    "authentication": {
+      "type": "jwt"
+    },
+    "apiVersion": 1,
+    "modules": {
+      "generalPages": [
+        {
+          "key": "azure-dashboard-page",
+          "location": "system.top.navigation.bar",
+          "name": { "value": "Azure Dashboard" },
+          "url": "/",
+          "conditions": [
+            { "condition": "user_is_logged_in" }
+          ]
+        }
+      ]
+    },
+    "lifecycle": {
+      "installed": "/api/jira/installed",
+      "uninstalled": "/api/jira/uninstalled"
+    },
+    "scopes": [ "read:jira-work", "write:jira-work" ]
+  }
+  

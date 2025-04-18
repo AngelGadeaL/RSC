@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Variables de color base (modo claro) */
+:root {
+  --foreground-rgb: 0, 0, 0; /* Texto negro */
+  --background-start-rgb: 255, 255, 255; /* Fondo blanco */
+  --background-end-rgb: 240, 240, 240; /* Un gris muy claro para gradiente suave si se desea */
+}
+
+/* Estilos base del body */
+body {
+  color: rgb(var(--foreground-rgb));
+  /* Fondo blanco sólido o un gradiente muy sutil */
+  background-color: rgb(var(--background-start-rgb)); 
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} 
